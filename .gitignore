@@ -1,0 +1,11 @@
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+.idea/
+storage.json
+
+*.test
+
+*.out
