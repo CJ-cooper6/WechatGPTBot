@@ -3,10 +3,10 @@ package gpt
 import (
 	"encoding/json"
 	"errors"
+	"github.com/CJ-cooper6/WechatGPTBot/config"
 	"net/http"
 	"net/url"
 	"strings"
-	"wechatbot/config"
 )
 
 // ResponseData chatGPT响应体

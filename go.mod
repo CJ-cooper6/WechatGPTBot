@@ -1,4 +1,4 @@
-module wechatbot
+module github.com/CJ-cooper6/WechatGPTBot
 
 go 1.16
 

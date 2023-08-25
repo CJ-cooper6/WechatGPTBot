@@ -1,9 +1,9 @@
 package bootstrap
 
 import (
+	"github.com/CJ-cooper6/WechatGPTBot/handlers"
 	"github.com/eatmoreapple/openwechat"
 	"log"
-	"wechatbot/handlers"
 )
 
 func Run() {
