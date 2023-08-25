@@ -25,7 +25,7 @@ docker run -d -p 3000:3000 zhuweiyou/chatgpt-api:20230424
 git clone https://github.com/CJ-cooper6/WechatGPTBot.git
 
 # 进入项目目录
-cd WechatGptBot
+cd WechatGPTBot
 
 # 替换config.json中access_token
 
