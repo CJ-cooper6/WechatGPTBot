@@ -1,0 +1,7 @@
+version: '3'
+services:
+  chatgpt-api:
+    image: "zhuweiyou/chatgpt-api:20230424"
+
+  wechatgptbot:
+    image: "wechatgptbot:latest"

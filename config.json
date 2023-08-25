@@ -1,4 +1,4 @@
 {
-  "url": "http://localhost:3000/send_message",
+  "url": "http://chatgpt-api:3000/send_message",
   "access_token": "your access_token"
 }

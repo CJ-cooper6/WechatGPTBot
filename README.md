@@ -9,17 +9,15 @@
 + 私聊回复
 + 群聊@回复
 
+![img_1.png](imgs/img_1.png)
+
 
 ## 快速开始
-**1、运行chatgpt-api**
-````
-docker run -d -p 3000:3000 zhuweiyou/chatgpt-api:20230424
-````
-**2、获取网页版 access_token**
+**1、获取网页版 access_token**
 
-访问 https://chat.openai.com/chat 成功登录之后, 打开浏览器开发者工具 (F12) -> 刷新页面- > Network 找到 /api/auth/session 请求, 复制 accessToken 存到你本地配置
+访问 https://chat.openai.com/chat 成功登录之后, 打开浏览器开发者工具 (F12) -> 刷新页面- > Network 找到 /api/auth/session 请求, 得到 accessToken
 
-**3、修改配置文件**
+**2、修改配置文件**
 ````
 # 获取项目
 git clone https://github.com/CJ-cooper6/WechatGPTBot.git
@@ -30,8 +28,14 @@ cd WechatGPTBot
 # 替换config.json中access_token
 
 ````
-**4、启动项目**
+**3、启动项目**
 
 ````
-go run main.go
+依次执行以下命令：
+  docker build -t wechatgptbot  .
+  docker-compose up -d
+  docker-compose logs -f wechatgptbot
 ````
+
+**4、访问控制台打印的网址扫码登录**
+![img.png](imgs/img.png)
