@@ -2,6 +2,8 @@ version: '3'
 services:
   chatgpt-api:
     image: "zhuweiyou/chatgpt-api:20230424"
+    restart: always
 
   wechatgptbot:
     image: "wechatgptbot:latest"
+    restart: always

@@ -34,7 +34,7 @@ cd WechatGPTBot
 依次执行以下命令：
   docker build -t wechatgptbot  .
   docker-compose up -d
-  docker-compose logs -f wechatgptbot
+  docker-compose logs --tail=10 wechatgptbot
 ````
 
 **4、访问控制台打印的网址扫码登录**
